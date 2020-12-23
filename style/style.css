@@ -1,0 +1,69 @@
+/* MAIN */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    transition: all;
+    transition-delay: 0.5ms;
+    transition-duration: 1ms;
+}
+
+.px-48 {
+    /* 48px */
+    font-size: 3rem;
+}
+
+.px-36 {
+    /* 36px */
+    font-size: 2.25rem;
+}
+
+.px-24 {
+    /* 24px */
+    font-size: 1.5rem;
+}
+
+.px-18 {
+    /* 18px */
+    font-size: 1.125rem;
+}
+
+.px-16 {
+    /* 16px */
+    font-size: 1rem;
+}
+
+.px-14 {
+    /* 14px */
+    font-size: 0.875rem;
+}
+
+
+/* ABOUT PAGE */
+
+
+/* Detail */
+
+.about {
+    margin-top: 6.813rem;
+}
+
+.txt-blue {
+    color: #4AC6F3;
+}
+
+.our-t {
+    margin-bottom: 3.688rem;
+}
+
+.about p {
+    line-height: 1.688rem;
+    letter-spacing: 7%;
+}
+
+.w-65 {
+    max-width: 65%;
+}

@@ -8,6 +8,7 @@ div {
 }
 
 * {
+    scroll-behavior: smooth;
     transition: 0.5s;
 }
 
@@ -39,6 +40,11 @@ div {
 .px-14 {
     /* 14px */
     font-size: 0.875rem;
+}
+
+.px-13 {
+    /* 13px */
+    font-size: 0.813rem;
 }
 
 .mr-60 {
@@ -88,7 +94,6 @@ div {
     background: url('../img/Treat\ Us.svg');
     padding: 0;
     display: flex;
-    flex-direction: row;
     list-style-type: none;
 }
 
@@ -154,12 +159,12 @@ div {
 
 /* Hover Effect */
 
-.person .info {
+ul.person .info {
     visibility: hidden;
 }
 
-.person li:hover .info,
-.person img:hover {
+ul.person li:hover .info,
+ul.person img:hover {
     visibility: initial;
     cursor: pointer;
     transition: 3s;
@@ -168,9 +173,61 @@ div {
 
 /* FOOTER */
 
-
-/* .footer {
+.footer {
+    margin-top: 14.813rem;
     width: 100%;
-    height: 100rem;
+    height: max-content;
     background-color: #EDFAFE;
-} */
+}
+
+.footer .logo {
+    margin-top: 12rem;
+    margin-bottom: 0.875rem;
+}
+
+.footer .sosmed {
+    margin: 1.875rem 0 5.375rem 0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+}
+
+.footer .sosmed #fb,
+.footer .sosmed #em,
+.footer .sosmed #ig,
+.footer .sosmed #in {
+    width: 2.563rem;
+    height: 2.563rem;
+    border-radius: 50%;
+    border: 1px solid #3A3A3A;
+}
+
+.footer .sosmed #fb,
+.footer .sosmed #em,
+.footer .sosmed #ig {
+    margin-right: 1.125rem;
+}
+
+.footer .sosmed i {
+    color: #3A3A3A;
+    font-size: 1.125rem;
+    margin-bottom: -0.2rem;
+}
+
+.footer .cr {
+    margin-bottom: 1.125rem;
+}
+
+
+/* Hover Sosmed Effect */
+
+.footer a:hover #fb,
+.footer a:hover #em,
+.footer a:hover #ig,
+.footer a:hover #in {
+    background-color: #3A3A3A;
+}
+
+.footer a:hover i {
+    color: white;
+}

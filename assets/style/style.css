@@ -1,0 +1,176 @@
+/* MAIN */
+
+nav,
+body,
+div {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    transition: 0.5s;
+}
+
+.px-48 {
+    /* 48px */
+    font-size: 3rem;
+}
+
+.px-36 {
+    /* 36px */
+    font-size: 2.25rem;
+}
+
+.px-24 {
+    /* 24px */
+    font-size: 1.5rem;
+}
+
+.px-18 {
+    /* 18px */
+    font-size: 1.125rem;
+}
+
+.px-16 {
+    /* 16px */
+    font-size: 1rem;
+}
+
+.px-14 {
+    /* 14px */
+    font-size: 0.875rem;
+}
+
+.mr-60 {
+    margin-right: 2.75rem;
+}
+
+.bg-blight {
+    background-color: #EDFAFE;
+}
+
+
+/* ABOUT PAGE */
+
+
+/* Detail */
+
+.about {
+    margin-top: 6.813rem;
+    margin-bottom: 5.75rem;
+}
+
+.txt-blue {
+    color: #4AC6F3;
+}
+
+.our-t {
+    margin-bottom: 3.688rem;
+}
+
+.about p {
+    line-height: 1.688rem;
+    letter-spacing: 0.1rem;
+}
+
+.w-65 {
+    max-width: 65%;
+}
+
+
+/* Teams Squad */
+
+.teams {
+    margin: 0 8%;
+}
+
+.teams ul {
+    background: url('../img/Treat\ Us.svg');
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.teams li {
+    display: block;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.teams img {
+    height: 18rem;
+}
+
+.teams .bondan {
+    margin-left: -4.1rem;
+}
+
+.teams .aji {
+    margin-left: -6rem;
+    margin-right: 30.4rem;
+}
+
+.teams .agung {
+    margin-right: -18rem;
+}
+
+.teams .dimas {
+    margin-right: -19.6rem;
+}
+
+.teams .rainhard {
+    margin-right: -21.2rem;
+}
+
+.teams .fajar {
+    margin-right: 28.4rem;
+}
+
+.teams .malik {
+    margin-left: -50.8rem;
+}
+
+.teams .cipto>.info {
+    padding-left: 20%;
+}
+
+.teams .bondan>.info {
+    padding-right: 4%;
+}
+
+.teams .aji>.info {
+    padding-left: 25%;
+}
+
+.teams .dimas>.info {
+    padding-right: 30%;
+}
+
+.teams .agung>.info {
+    padding-right: 10%;
+}
+
+
+/* Hover Effect */
+
+.person .info {
+    visibility: hidden;
+}
+
+.person li:hover .info,
+.person img:hover {
+    visibility: initial;
+    cursor: pointer;
+    transition: 3s;
+}
+
+
+/* FOOTER */
+
+
+/* .footer {
+    width: 100%;
+    height: 100rem;
+    background-color: #EDFAFE;
+} */

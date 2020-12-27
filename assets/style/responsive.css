@@ -1,0 +1,209 @@
+/* EXTRA SMALL */
+
+@media only screen and (max-width: 320px) {
+    /* NAVBAR */
+    .navbar-brand img {
+        width: 3.125rem;
+    }
+    /* ABOUT PAGE */
+    .about {
+        margin-top: 12.125rem;
+        margin-bottom: 5.813rem;
+    }
+    .about h2 {
+        font-size: 1.625rem;
+        margin-bottom: 1.375rem;
+    }
+    .teams .col-6 {
+        padding: 0;
+    }
+    .teams .row .info {
+        display: none;
+    }
+    .teams .row img {
+        height: 10rem;
+    }
+    .teams .row .malik,
+    .teams .row .cipto,
+    .teams .row .rainhard {
+        margin-bottom: 3.75rem;
+    }
+    /* FOOTER */
+    .footer {
+        margin-top: 6.125rem;
+    }
+    .footer .logo {
+        width: 2.5rem;
+        margin-top: 5rem;
+        margin-bottom: 0.438rem;
+    }
+    .footer h2 {
+        font-size: 1.125rem;
+    }
+    .footer .sosmed {
+        margin: 1.25rem 0 2.813rem 0;
+    }
+    .footer .sosmed #fb,
+    .footer .sosmed #em,
+    .footer .sosmed #ig,
+    .footer .sosmed #in {
+        width: 2.188rem;
+        height: 2.188rem;
+    }
+    .footer .sosmed i {
+        font-size: 0.875rem;
+        margin-bottom: 0;
+    }
+    .footer .cr {
+        font-size: 0.625rem;
+        margin-bottom: 0.438rem;
+    }
+}
+
+@media only screen and (min-width: 321px) {
+    /* NAVBAR */
+    .navbar-brand img {
+        width: 3.125rem;
+    }
+    /* ABOUT PAGE */
+    .about {
+        margin-top: 12.125rem;
+        margin-bottom: 5.813rem;
+    }
+    .about h2 {
+        font-size: 1.625rem;
+        margin-bottom: 1.375rem;
+    }
+    .about p.lg {
+        display: none;
+    }
+    .about p.sm {
+        display: block !important;
+        font-size: 0.875rem;
+    }
+    .teams .col-6 {
+        padding: 0;
+    }
+    .teams .row .info {
+        display: none;
+    }
+    .teams .row img {
+        height: 10rem;
+    }
+    .teams .row .malik,
+    .teams .row .cipto,
+    .teams .row .rainhard {
+        margin-bottom: 3.75rem;
+    }
+    /* FOOTER */
+    .footer {
+        margin-top: 6.125rem;
+    }
+    .footer .logo {
+        width: 2.5rem;
+        margin-top: 5rem;
+        margin-bottom: 0.438rem;
+    }
+    .footer h2 {
+        font-size: 1.125rem;
+    }
+    .footer .sosmed {
+        margin: 1.25rem 0 2.813rem 0;
+    }
+    .footer .sosmed #fb,
+    .footer .sosmed #em,
+    .footer .sosmed #ig,
+    .footer .sosmed #in {
+        width: 2.188rem;
+        height: 2.188rem;
+    }
+    .footer .sosmed i {
+        font-size: 0.875rem;
+        margin-bottom: 0;
+    }
+    .footer .cr {
+        font-size: 0.625rem;
+        margin-bottom: 0.438rem;
+    }
+}
+
+
+/* MEDIUM */
+
+@media only screen and (max-width: 992px) {
+    /* NAVBAR */
+    .navbar .container {
+        margin: auto;
+        max-width: 95%;
+    }
+    .navbar-light .navbar-toggler {
+        border: 0;
+    }
+    .navbar-toggler i {
+        font-size: 1.5rem;
+        color: #4AC6F3;
+    }
+    .navbar-collapse.show ul {
+        text-align: center;
+    }
+    .navbar-collapse.show li {
+        margin: 0;
+    }
+    /* ABOUT PAGE */
+    .about p.lg {
+        display: none;
+    }
+    .about p.sm {
+        display: block !important;
+        font-size: 0.875rem;
+    }
+    .teams ul {
+        display: none;
+    }
+}
+
+
+/* LARGE */
+
+@media only screen and (min-width: 992px) {
+    /* NAVBAR */
+    .navbar-brand img {
+        width: 3.75rem;
+    }
+    .navbar .navbar-nav {
+        font-size: 1.25rem;
+    }
+    /* ABOUT PAGE */
+    .about p.lg {
+        display: block;
+    }
+    .about p.sm {
+        display: none !important;
+    }
+    .teams .row {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /* NAVBAR */
+    .navbar-brand img {
+        width: 4.375rem;
+    }
+    .navbar .navbar-nav {
+        font-size: 1.375rem;
+    }
+}
+
+
+/* EXTRA LARGE */
+
+@media only screen and (min-width: 1400px) {
+    /* NAVBAR */
+    .navbar-brand img {
+        width: 5.625rem;
+    }
+    .navbar .navbar-nav {
+        font-size: 1.5rem;
+    }
+}

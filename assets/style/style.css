@@ -12,10 +12,11 @@ div {
     transition: 0.5s;
 }
 
-.px-48 {
-    /* 48px */
+
+/* .px-48 {
+    48px
     font-size: 3rem;
-}
+} */
 
 .px-36 {
     /* 36px */
@@ -240,13 +241,7 @@ ul.person img:hover {
     height: max-content;
 }
 
-.footer .logo {
-    margin-top: 12rem;
-    margin-bottom: 0.875rem;
-}
-
 .footer .sosmed {
-    margin: 1.875rem 0 5.375rem 0;
     padding: 0;
     list-style: none;
     display: inline-flex;
@@ -256,8 +251,6 @@ ul.person img:hover {
 .footer .sosmed #em,
 .footer .sosmed #ig,
 .footer .sosmed #in {
-    width: 2.563rem;
-    height: 2.563rem;
     border-radius: 50%;
     border: 1px solid #3A3A3A;
 }
@@ -270,12 +263,6 @@ ul.person img:hover {
 
 .footer .sosmed i {
     color: #3A3A3A;
-    font-size: 1.125rem;
-    margin-bottom: -0.2rem;
-}
-
-.footer .cr {
-    margin-bottom: 1.125rem;
 }
 
 

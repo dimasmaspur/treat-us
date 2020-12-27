@@ -183,6 +183,22 @@
     .teams .row {
         display: none;
     }
+    /* FOOTER */
+    .footer .logo {
+        width: 3.75rem;
+        margin-top: 5.313rem;
+        margin-bottom: 0.625rem;
+    }
+    .footer h2 {
+        font-size: 1.5rem;
+    }
+    .footer .sosmed {
+        margin: 1.563rem 0 3.75rem 0;
+    }
+    .footer .cr {
+        font-size: 0.625rem;
+        margin-bottom: 0.875rem;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -192,6 +208,33 @@
     }
     .navbar .navbar-nav {
         font-size: 1.375rem;
+    }
+    /* FOOTER */
+    .footer .logo {
+        width: 5rem;
+        margin-top: 10rem;
+        margin-bottom: 0.875rem;
+    }
+    .footer h2 {
+        font-size: 2rem;
+    }
+    .footer .sosmed #fb,
+    .footer .sosmed #em,
+    .footer .sosmed #ig,
+    .footer .sosmed #in {
+        width: 2.375rem;
+        height: 2.375rem;
+    }
+    .footer .sosmed {
+        margin: 1.75rem 0 4.688rem 0;
+    }
+    .footer .sosmed i {
+        font-size: 1rem;
+        margin-bottom: -0.1rem;
+    }
+    .footer .cr {
+        font-size: 0.75rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -205,5 +248,31 @@
     }
     .navbar .navbar-nav {
         font-size: 1.5rem;
+    }
+    /* FOOTER */
+    .footer .logo {
+        width: 5.625rem;
+        margin-top: 12.063rem;
+    }
+    .footer h2 {
+        font-size: 2.25rem;
+    }
+    .footer .sosmed #fb,
+    .footer .sosmed #em,
+    .footer .sosmed #ig,
+    .footer .sosmed #in {
+        width: 2.563rem;
+        height: 2.563rem;
+    }
+    .footer .sosmed {
+        margin: 1.875rem 0 5.375rem 0;
+    }
+    .footer .sosmed i {
+        font-size: 1.125rem;
+        margin-bottom: -0.2rem;
+    }
+    .footer .cr {
+        font-size: 0.813rem;
+        margin-bottom: 1.125rem;
     }
 }

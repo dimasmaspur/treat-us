@@ -93,6 +93,27 @@ div {
 }
 
 
+/* PROJECTS DETAIL PAGE */
+
+.display-pro {
+    margin: 10.625rem 10% 10rem;
+}
+
+.display-pro .big-img {
+    margin-bottom: 8.25rem;
+}
+
+.display-pro .sm-img {
+    overflow: hidden;
+    max-height: 19.446rem;
+}
+
+.desc-pro {
+    line-height: 2.688rem;
+    margin: 0 10%;
+}
+
+
 /* ABOUT PAGE */
 
 
@@ -116,8 +137,16 @@ div {
     letter-spacing: 0.1rem;
 }
 
+.about p.sm {
+    display: none;
+}
+
 .w-65 {
     max-width: 65%;
+}
+
+.w-85 {
+    max-width: 85%;
 }
 
 
@@ -140,56 +169,56 @@ div {
     /* border: 1px solid black; */
 }
 
-.teams img {
+.teams ul img {
     height: 18rem;
 }
 
-.teams .bondan {
+.teams ul .bondan {
     margin-left: -4.1rem;
 }
 
-.teams .aji {
+.teams ul .aji {
     margin-left: -6rem;
     margin-right: 30.4rem;
 }
 
-.teams .agung {
+.teams ul .agung {
     margin-right: -18rem;
 }
 
-.teams .dimas {
+.teams ul .dimas {
     margin-right: -19.6rem;
 }
 
-.teams .rainhard {
+.teams ul .rainhard {
     margin-right: -21.2rem;
 }
 
-.teams .fajar {
+.teams ul .fajar {
     margin-right: 28.4rem;
 }
 
-.teams .malik {
+.teams ul .malik {
     margin-left: -50.8rem;
 }
 
-.teams .cipto>.info {
+.teams ul .cipto>.info {
     padding-left: 20%;
 }
 
-.teams .bondan>.info {
+.teams ul .bondan>.info {
     padding-right: 4%;
 }
 
-.teams .aji>.info {
+.teams ul .aji>.info {
     padding-left: 25%;
 }
 
-.teams .dimas>.info {
+.teams ul .dimas>.info {
     padding-right: 30%;
 }
 
-.teams .agung>.info {
+.teams ul .agung>.info {
     padding-right: 10%;
 }
 
@@ -266,4 +295,34 @@ ul.person img:hover {
 
 .footer a:hover i {
     color: white;
+}
+
+
+/* MODAL */
+
+
+/* Detail Projects */
+
+.modal {
+    background-color: #1f1f1fbd;
+}
+
+.modal .modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.modal .modal-dialog {
+    max-width: max-content;
+}
+
+.modal#Bromind-Story .modal-dialog,
+.modal#Bromind-CU .modal-dialog,
+.modal#Bromind-Cart .modal-dialog {
+    max-width: 80%;
+}
+
+.modal a {
+    color: #EDFAFE;
+    cursor: pointer;
 }

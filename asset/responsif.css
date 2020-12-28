@@ -1,6 +1,5 @@
-
 /* // Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 360px) {
     
     /* navbar */
     .navbar .image-tret-us{
@@ -63,8 +62,7 @@
     }
     .input-group h5{
         margin-top: -2rem;
-        width: 377px;
-        margin-left: -3.5rem;
+        width: 100%;
         font-size: 14px;
         margin-bottom: 1rem;
         text-align: center;
@@ -174,10 +172,50 @@
 /* X-Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     
+    /* navbar */
+    .navbar .image-tret-us{
+        width: 56%;
+        height: auto;
+    }
+    /* end navbar */
+
     /* hero */
     .hero{
         margin-top: -7rem;
         height: 800px;
+    }
+    .content h1{
+        width: 100%;
+        font-size: 55px;
+    }
+    .hero .image-rounded{
+        width: 253px;
+    }
+    .hero .image-rounded img{
+        margin-top: 11.7rem;
+        margin-left: 8.2rem;
+        height: auto;
+        width: 100% !important;
+    }
+    .hero .image-rounded-1 img{
+        margin-left: -38rem;
+        margin-top: 3.3rem;
+        height: auto;
+        width: 100% !important;
+    }
+    .hero .flat-animasion{
+        width: 669px;
+        margin-top: -2.7rem;
+        margin-left: -4.9rem;
+    }
+    .hero .button{
+        margin-left: 2rem;
+    }
+    .hero .segitiga{
+        border-bottom: 748px solid rgba(144, 229, 243, 0.35);
+        top: 0rem;
+        margin-left: 16rem;
+        border-left: 58.3rem solid transparent;
     }
     /* end hero */
 
@@ -185,6 +223,10 @@
     .about-us{
         margin-top: 85px;
     }
+    .input-group h5{
+        font-size: 16px;
+        margin-top: 0rem;
+        text-align: inherit;
     /* end about us */
 
     /* step work */   
@@ -197,6 +239,57 @@
     .technologies{
         margin-top: 191px;
     }
+    /* end tecnology */
+
+    /* service */
+    .we-ofer .margin-auto img{
+        margin-left: 0rem;
+    }
+    .information{
+        margin-left: 1rem;
+    }
+    .we-ofer .input-group .m-auto h2{
+        width: 28%;
+        font-size: 36px;
+    }
+    /* end service */
+
+    /* portofolio */
+    .portofolio .title h2{
+        font-size: 36px;
+    }
+    .view-project .project{
+        width: 432.35px !important;
+        height: 377px !important;
+    }
+    /* end portofolio */
+
+    /* step work */
+    .step-work .m-auto h2{
+        font-size: 36px !important;
+    }
+    .all-step-work{
+        margin-left: 9rem !important;
+    }
+    .analayze{
+        margin-left: 3rem;
+    }
+    .analayze p{
+        width: 479px !important;
+    }
+    /* end step work */
+
+    /* tecnologi */
+    .technologies .title-technologies h2{
+        font-size: 31px !important;
+    }
+    /* end technologi */
+
+    /* testimoni */
+    .testimoni h2{
+        font-size: 36px !important;
+    }
+    /* end testimoni */
 }
 
 // XX-Large devices (larger desktops, 1400px and up)

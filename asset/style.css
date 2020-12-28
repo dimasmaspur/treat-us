@@ -24,8 +24,6 @@ body, h1, h2, h3, h4, h5, h6{
 
 /* hero */
 .hero{
-    margin-top: -7rem;
-    height: 800px;
     width: 100%;
     left: 0px;
     top: -27.5px
@@ -82,23 +80,10 @@ body, h1, h2, h3, h4, h5, h6{
     margin-left: -38rem;
     margin-top: 3.3rem;
 }
-/* .vector{
-    position: absolute;
-    width: 1143.5px;
-    height: 923px;
-    left: 410px;
-    top: -28px;
-
-    background: #37CAFF;
-    opacity: 0.2;
-} */
 
 /* end hero */
 
 /* about-us */
-.about-us{
-    margin-top: 85px;
-}
 .about-us-content{
     height: 188px;
     border-radius: 10px;
@@ -199,9 +184,6 @@ body, h1, h2, h3, h4, h5, h6{
     margin-top: 86px;
     margin-left: 9rem;
 }
-.analayze{
-    margin-left: 3.3rem;
-}
 .analayze p{
     width: 479px;
     height: 71px;
@@ -235,10 +217,6 @@ body, h1, h2, h3, h4, h5, h6{
 /* end technologies */
 
 /* testimonial */
-
-.testimoni{
-    margin-top: 204px;
-}
 .testimoni h2{
     font-family: 'Inter', sans-serif;
     font-weight: 500;

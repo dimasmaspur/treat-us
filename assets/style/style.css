@@ -236,14 +236,15 @@ div {
     visibility: hidden;
 }
 
-.teams .person .info .px-16,
+
+/* .teams .person .info .px-16,
 .teams .person .info .px-14 {
     font-size: 0.313rem;
-}
+} */
 
 .teams .person img {
-    /* margin-top: -0.7rem; */
     margin-top: -2rem;
+    /* margin-top: -2rem; */
 }
 
 .teams .person li:hover .info {
@@ -251,13 +252,14 @@ div {
     margin-bottom: 0;
 }
 
-.teams .person li:hover .info .px-16 {
+
+/* .teams .person li:hover .info .px-16 {
     font-size: 1rem;
 }
 
 .teams .person li:hover .info .px-14 {
     font-size: 0.875rem;
-}
+} */
 
 .teams .person li:hover img {
     margin-top: 0;
@@ -267,7 +269,7 @@ div {
 .teams .person img:hover {
     visibility: initial;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 

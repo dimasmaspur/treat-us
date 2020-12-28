@@ -43,6 +43,11 @@ div {
     font-size: 0.813rem;
 }
 
+.px-12 {
+    /* 12px */
+    font-size: 0.75rem;
+}
+
 .mr-60 {
     margin-right: 2.75rem;
 }
@@ -63,7 +68,7 @@ div {
     margin-bottom: 1.375rem;
 }
 
-.project h3 {
+.project .heading h3 {
     color: #636363;
 }
 
@@ -227,7 +232,7 @@ div {
 
 .teams .person .info {
     margin-top: 4rem;
-    margin-bottom: -0.7rem;
+    margin-bottom: -2rem;
     visibility: hidden;
 }
 
@@ -237,6 +242,7 @@ div {
 }
 
 .teams .person img {
+    /* margin-top: -0.7rem; */
     margin-top: -2rem;
 }
 

@@ -1,278 +1,485 @@
-/* EXTRA SMALL */
-
-@media only screen and (max-width: 320px) {
-    /* NAVBAR */
-    .navbar-brand img {
-        width: 3.125rem;
+    /* EXTRA SMALL */
+    
+    @media only screen and (max-width: 320px) {
+        /* NAVBAR */
+        .navbar-brand img {
+            width: 3.125rem;
+        }
+        /* ABOUT PAGE */
+        .about {
+            margin-top: 12.125rem;
+            margin-bottom: 5.813rem;
+        }
+        .about h2 {
+            font-size: 1.625rem;
+            margin-bottom: 1.375rem;
+        }
+        .teams .col-6 {
+            padding: 0;
+        }
+        .teams .row .info {
+            visibility: hidden;
+        }
+        .teams .row img {
+            height: 10rem;
+        }
+        .teams .row .col-6:hover .info {
+            visibility: initial;
+            transition: 3s;
+        }
+        .teams .row .malik,
+        .teams .row .cipto,
+        .teams .row .rainhard {
+            margin-bottom: 1.063rem;
+        }
+        /* FOOTER */
+        .footer {
+            margin-top: 6.125rem;
+        }
+        .footer .logo {
+            width: 2.5rem;
+            margin-top: 5rem;
+            margin-bottom: 0.438rem;
+        }
+        .footer h2 {
+            font-size: 1.125rem;
+        }
+        .footer .sosmed {
+            margin: 1.25rem 0 2.813rem 0;
+        }
+        .footer .sosmed #fb,
+        .footer .sosmed #em,
+        .footer .sosmed #ig,
+        .footer .sosmed #in {
+            width: 2.188rem;
+            height: 2.188rem;
+        }
+        .footer .sosmed i {
+            font-size: 0.875rem;
+            margin-bottom: 0;
+        }
+        .footer .cr {
+            font-size: 0.625rem;
+            margin-bottom: 0.438rem;
+        }
     }
-    /* ABOUT PAGE */
-    .about {
-        margin-top: 12.125rem;
-        margin-bottom: 5.813rem;
+    
+    @media only screen and (min-width: 321px) {
+        /* NAVBAR */
+        .navbar-brand img {
+            width: 3.125rem;
+        }
+        /* ABOUT PAGE */
+        .about {
+            margin-top: 12.125rem;
+            margin-bottom: 5.813rem;
+        }
+        .about h2 {
+            font-size: 1.625rem;
+            margin-bottom: 1.375rem;
+        }
+        .about p.lg {
+            display: none;
+        }
+        .about p.sm {
+            display: block !important;
+            font-size: 0.875rem;
+        }
+        .teams .col-6 {
+            padding: 0;
+        }
+        .teams .row .info {
+            visibility: hidden;
+        }
+        .teams .row img {
+            height: 10rem;
+        }
+        .teams .row .col-6:hover .info {
+            visibility: initial;
+            transition: 3s;
+        }
+        .teams .row .malik,
+        .teams .row .cipto,
+        .teams .row .rainhard {
+            margin-bottom: 1.063rem;
+        }
+        /* FOOTER */
+        .footer {
+            margin-top: 6.125rem;
+        }
+        .footer .logo {
+            width: 2.5rem;
+            margin-top: 5rem;
+            margin-bottom: 0.438rem;
+        }
+        .footer h2 {
+            font-size: 1.125rem;
+        }
+        .footer .sosmed {
+            margin: 1.25rem 0 2.813rem 0;
+        }
+        .footer .sosmed #fb,
+        .footer .sosmed #em,
+        .footer .sosmed #ig,
+        .footer .sosmed #in {
+            width: 2.188rem;
+            height: 2.188rem;
+        }
+        .footer .sosmed i {
+            font-size: 0.875rem;
+            margin-bottom: 0;
+        }
+        .footer .cr {
+            font-size: 0.625rem;
+            margin-bottom: 0.438rem;
+        }
     }
-    .about h2 {
-        font-size: 1.625rem;
-        margin-bottom: 1.375rem;
+    /* MEDIUM */
+    
+    @media only screen and (max-width: 991px) {
+        /* NAVBAR */
+        .navbar .container {
+            margin: auto;
+            max-width: 95%;
+        }
+        .navbar-light .navbar-toggler {
+            border: 0;
+        }
+        .navbar-toggler i {
+            font-size: 1.5rem;
+            color: #4AC6F3;
+        }
+        .navbar-collapse.show .person {
+            text-align: center;
+        }
+        .navbar-collapse.show li {
+            margin: 0;
+        }
+        /* ABOUT PAGE */
+        .about p.lg {
+            display: none;
+        }
+        .about p.sm {
+            display: block !important;
+            font-size: 0.875rem;
+        }
+        .teams .person {
+            display: none;
+        }
     }
-    .teams .col-6 {
-        padding: 0;
+    /* LARGE */
+    
+    @media only screen and (min-width: 992px) {
+        /* NAVBAR */
+        .navbar-brand img {
+            width: 3.75rem;
+        }
+        .navbar .navbar-nav {
+            font-size: 1.25rem;
+        }
+        /* ABOUT PAGE */
+        .about h2 {
+            font-size: 1.875rem;
+            margin-bottom: 2.5rem;
+        }
+        .about p.lg {
+            display: block;
+        }
+        .about p.sm {
+            display: none !important;
+        }
+        /* .teams {
+        margin: 0 5%;
+    } */
+        .teams .row {
+            display: none;
+        }
+        .teams .person img {
+            height: 15rem;
+        }
+        .teams .person .aji {
+            margin-left: -5.5rem;
+            margin-right: 24.7rem;
+        }
+        .teams .person .agung {
+            margin-right: -14.6rem;
+        }
+        .teams .person .dimas {
+            margin-right: -16.1rem;
+        }
+        .teams .person .rainhard {
+            margin-right: -17.3rem;
+        }
+        .teams .person .fajar {
+            margin-right: 32.4rem;
+        }
+        /* FOOTER */
+        .footer {
+            margin-top: 9.375rem;
+        }
+        .footer .logo {
+            width: 3.75rem;
+            margin-top: 5.313rem;
+            margin-bottom: 0.625rem;
+        }
+        .footer h2 {
+            font-size: 1.5rem;
+        }
+        .footer .sosmed {
+            margin: 1.563rem 0 3.75rem 0;
+        }
+        .footer .cr {
+            font-size: 0.625rem;
+            margin-bottom: 0.875rem;
+        }
     }
-    .teams .row .info {
-        display: none;
+    
+    @media only screen and (min-width: 1024px) {
+        /* NAVBAR */
+        .navbar-brand img {
+            width: 4.375rem;
+        }
+        .navbar .navbar-nav {
+            font-size: 1.375rem;
+        }
+        /* FOOTER */
+        .footer .logo {
+            width: 5rem;
+            margin-top: 10rem;
+            margin-bottom: 0.875rem;
+        }
+        .footer h2 {
+            font-size: 2rem;
+        }
+        .footer .sosmed #fb,
+        .footer .sosmed #em,
+        .footer .sosmed #ig,
+        .footer .sosmed #in {
+            width: 2.375rem;
+            height: 2.375rem;
+        }
+        .footer .sosmed {
+            margin: 1.75rem 0 4.688rem 0;
+        }
+        .footer .sosmed i {
+            font-size: 1rem;
+            margin-bottom: -0.1rem;
+        }
+        .footer .cr {
+            font-size: 0.75rem;
+            margin-bottom: 1rem;
+        }
     }
-    .teams .row img {
-        height: 10rem;
+    
+    @media only screen and (min-width: 1100px) {
+        /* ABOUT PAGE */
+        /* .teams {
+        margin: 0 9%;
+    } */
+        .teams .container {
+            max-width: 1000px;
+        }
+        .teams .person .bondan {
+            margin-left: -3.8rem;
+        }
+        .teams .person .agung {
+            margin-right: -15.5rem;
+        }
+        .teams .person .dimas {
+            margin-right: -17rem;
+        }
+        .teams .person .rainhard {
+            margin-right: -18.3rem;
+        }
+        .teams .person .fajar {
+            margin-right: 32rem;
+        }
+        .teams .person img {
+            height: 16rem;
+        }
+        /* FOOTER */
+        .footer {
+            margin-top: 10rem;
+        }
     }
-    .teams .row .malik,
-    .teams .row .cipto,
-    .teams .row .rainhard {
-        margin-bottom: 3.75rem;
+    
+    @media only screen and (min-width: 1200px) {
+        /* ABOUT PAGE */
+        /* .teams {
+        margin: 0 10%;
+    } */
+        .teams .person img {
+            height: 16.5rem;
+        }
+        .teams .person .agung {
+            margin-right: -15.6rem;
+        }
+        .teams .person .dimas {
+            margin-right: -17rem;
+        }
+        .teams .person .rainhard {
+            margin-right: -19rem;
+        }
+        .teams .person .fajar {
+            margin-right: 31.3rem;
+        }
+        /* FOOTER */
+        .footer {
+            margin-top: 10.625rem;
+        }
     }
-    /* FOOTER */
-    .footer {
-        margin-top: 6.125rem;
+    
+    @media only screen and (min-width: 1300px) {
+        /* ABOUT PAGE */
+        .about {
+            margin-top: 17.375rem;
+            margin-bottom: 5.75rem;
+        }
+        .about h2 {
+            font-size: 2.25rem;
+            margin-bottom: 3.75rem;
+        }
+        .teams .container {
+            max-width: 1140px;
+        }
+        .teams .person img {
+            height: 17.5rem;
+        }
+        .teams .person .aji {
+            margin-left: -5.5rem;
+            margin-right: 28.5rem;
+        }
+        .teams .person .agung {
+            margin-right: -17rem;
+        }
+        .teams .person .dimas {
+            margin-right: -18.8rem;
+        }
+        .teams .person .rainhard {
+            margin-right: -20rem;
+        }
+        .teams .person .fajar {
+            margin-right: 29.4rem;
+        }
+        /* FOOTER */
+        .footer {
+            margin-top: 11.25rem;
+        }
     }
-    .footer .logo {
-        width: 2.5rem;
-        margin-top: 5rem;
-        margin-bottom: 0.438rem;
+    /* EXTRA LARGE */
+    
+    @media only screen and (min-width: 1400px) {
+        /* NAVBAR */
+        .navbar-brand img {
+            width: 5.625rem;
+        }
+        .navbar .navbar-nav {
+            font-size: 1.5rem;
+        }
+        /* ABOUT PAGE */
+        .teams .container {
+            max-width: 85%;
+        }
+        .teams .person img {
+            height: 18.125rem;
+        }
+        .teams .person .aji {
+            margin-left: -5.5rem;
+            margin-right: 31rem;
+        }
+        .teams .person .agung {
+            margin-right: -18rem;
+        }
+        .teams .person .dimas {
+            margin-right: -19.5rem;
+        }
+        .teams .person .rainhard {
+            margin-right: -21rem;
+        }
+        .teams .person .fajar {
+            margin-right: 28.4rem;
+        }
+        /* FOOTER */
+        .footer {
+            margin-top: 14.813rem;
+        }
+        .footer .logo {
+            width: 5.625rem;
+            margin-top: 12.063rem;
+        }
+        .footer h2 {
+            font-size: 2.25rem;
+        }
+        .footer .sosmed #fb,
+        .footer .sosmed #em,
+        .footer .sosmed #ig,
+        .footer .sosmed #in {
+            width: 2.563rem;
+            height: 2.563rem;
+        }
+        .footer .sosmed {
+            margin: 1.875rem 0 5.375rem 0;
+        }
+        .footer .sosmed i {
+            font-size: 1.125rem;
+            margin-bottom: -0.2rem;
+        }
+        .footer .cr {
+            font-size: 0.813rem;
+            margin-bottom: 1.125rem;
+        }
     }
-    .footer h2 {
-        font-size: 1.125rem;
+    
+    @media only screen and (min-width: 1500px) {
+        .teams .container {
+            max-width: 78%;
+        }
     }
-    .footer .sosmed {
-        margin: 1.25rem 0 2.813rem 0;
+    
+    @media only screen and (min-width: 1600px) {
+        .teams .container {
+            max-width: 73%;
+        }
     }
-    .footer .sosmed #fb,
-    .footer .sosmed #em,
-    .footer .sosmed #ig,
-    .footer .sosmed #in {
-        width: 2.188rem;
-        height: 2.188rem;
+    
+    @media only screen and (min-width: 1700px) {
+        .teams .container {
+            max-width: 68%;
+        }
     }
-    .footer .sosmed i {
-        font-size: 0.875rem;
-        margin-bottom: 0;
+    
+    @media only screen and (min-width: 1800px) {
+        .teams .container {
+            max-width: 65%;
+        }
     }
-    .footer .cr {
-        font-size: 0.625rem;
-        margin-bottom: 0.438rem;
+    
+    @media only screen and (min-width: 1900px) {
+        .teams .container {
+            max-width: 60%;
+        }
     }
-}
-
-@media only screen and (min-width: 321px) {
-    /* NAVBAR */
-    .navbar-brand img {
-        width: 3.125rem;
+    
+    @media only screen and (min-width: 2000px) {
+        .teams .container {
+            max-width: 58%;
+        }
     }
-    /* ABOUT PAGE */
-    .about {
-        margin-top: 12.125rem;
-        margin-bottom: 5.813rem;
+    
+    @media only screen and (min-width: 2200px) {
+        .teams .container {
+            max-width: 53%;
+        }
     }
-    .about h2 {
-        font-size: 1.625rem;
-        margin-bottom: 1.375rem;
+    
+    @media only screen and (min-width: 2400px) {
+        .teams .container {
+            max-width: 48%;
+        }
     }
-    .about p.lg {
-        display: none;
+    
+    @media only screen and (min-width: 2560px) {
+        .teams .container {
+            max-width: 45%;
+        }
     }
-    .about p.sm {
-        display: block !important;
-        font-size: 0.875rem;
-    }
-    .teams .col-6 {
-        padding: 0;
-    }
-    .teams .row .info {
-        display: none;
-    }
-    .teams .row img {
-        height: 10rem;
-    }
-    .teams .row .malik,
-    .teams .row .cipto,
-    .teams .row .rainhard {
-        margin-bottom: 3.75rem;
-    }
-    /* FOOTER */
-    .footer {
-        margin-top: 6.125rem;
-    }
-    .footer .logo {
-        width: 2.5rem;
-        margin-top: 5rem;
-        margin-bottom: 0.438rem;
-    }
-    .footer h2 {
-        font-size: 1.125rem;
-    }
-    .footer .sosmed {
-        margin: 1.25rem 0 2.813rem 0;
-    }
-    .footer .sosmed #fb,
-    .footer .sosmed #em,
-    .footer .sosmed #ig,
-    .footer .sosmed #in {
-        width: 2.188rem;
-        height: 2.188rem;
-    }
-    .footer .sosmed i {
-        font-size: 0.875rem;
-        margin-bottom: 0;
-    }
-    .footer .cr {
-        font-size: 0.625rem;
-        margin-bottom: 0.438rem;
-    }
-}
-
-
-/* MEDIUM */
-
-@media only screen and (max-width: 992px) {
-    /* NAVBAR */
-    .navbar .container {
-        margin: auto;
-        max-width: 95%;
-    }
-    .navbar-light .navbar-toggler {
-        border: 0;
-    }
-    .navbar-toggler i {
-        font-size: 1.5rem;
-        color: #4AC6F3;
-    }
-    .navbar-collapse.show ul {
-        text-align: center;
-    }
-    .navbar-collapse.show li {
-        margin: 0;
-    }
-    /* ABOUT PAGE */
-    .about p.lg {
-        display: none;
-    }
-    .about p.sm {
-        display: block !important;
-        font-size: 0.875rem;
-    }
-    .teams ul {
-        display: none;
-    }
-}
-
-
-/* LARGE */
-
-@media only screen and (min-width: 992px) {
-    /* NAVBAR */
-    .navbar-brand img {
-        width: 3.75rem;
-    }
-    .navbar .navbar-nav {
-        font-size: 1.25rem;
-    }
-    /* ABOUT PAGE */
-    .about p.lg {
-        display: block;
-    }
-    .about p.sm {
-        display: none !important;
-    }
-    .teams .row {
-        display: none;
-    }
-    /* FOOTER */
-    .footer .logo {
-        width: 3.75rem;
-        margin-top: 5.313rem;
-        margin-bottom: 0.625rem;
-    }
-    .footer h2 {
-        font-size: 1.5rem;
-    }
-    .footer .sosmed {
-        margin: 1.563rem 0 3.75rem 0;
-    }
-    .footer .cr {
-        font-size: 0.625rem;
-        margin-bottom: 0.875rem;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    /* NAVBAR */
-    .navbar-brand img {
-        width: 4.375rem;
-    }
-    .navbar .navbar-nav {
-        font-size: 1.375rem;
-    }
-    /* FOOTER */
-    .footer .logo {
-        width: 5rem;
-        margin-top: 10rem;
-        margin-bottom: 0.875rem;
-    }
-    .footer h2 {
-        font-size: 2rem;
-    }
-    .footer .sosmed #fb,
-    .footer .sosmed #em,
-    .footer .sosmed #ig,
-    .footer .sosmed #in {
-        width: 2.375rem;
-        height: 2.375rem;
-    }
-    .footer .sosmed {
-        margin: 1.75rem 0 4.688rem 0;
-    }
-    .footer .sosmed i {
-        font-size: 1rem;
-        margin-bottom: -0.1rem;
-    }
-    .footer .cr {
-        font-size: 0.75rem;
-        margin-bottom: 1rem;
-    }
-}
-
-
-/* EXTRA LARGE */
-
-@media only screen and (min-width: 1400px) {
-    /* NAVBAR */
-    .navbar-brand img {
-        width: 5.625rem;
-    }
-    .navbar .navbar-nav {
-        font-size: 1.5rem;
-    }
-    /* FOOTER */
-    .footer .logo {
-        width: 5.625rem;
-        margin-top: 12.063rem;
-    }
-    .footer h2 {
-        font-size: 2.25rem;
-    }
-    .footer .sosmed #fb,
-    .footer .sosmed #em,
-    .footer .sosmed #ig,
-    .footer .sosmed #in {
-        width: 2.563rem;
-        height: 2.563rem;
-    }
-    .footer .sosmed {
-        margin: 1.875rem 0 5.375rem 0;
-    }
-    .footer .sosmed i {
-        font-size: 1.125rem;
-        margin-bottom: -0.2rem;
-    }
-    .footer .cr {
-        font-size: 0.813rem;
-        margin-bottom: 1.125rem;
-    }
-}

@@ -23,6 +23,11 @@ div {
     font-size: 2.25rem;
 }
 
+.px-28 {
+    /* 28px */
+    font-size: 1.75rem;
+}
+
 .px-18 {
     /* 18px */
     font-size: 1.125rem;
@@ -115,6 +120,29 @@ div {
 }
 
 
+/* Modal Detail Projects */
+
+.modal {
+    background-color: #1f1f1fbd;
+}
+
+.modal .modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.modal#Bromind-Story .modal-dialog,
+.modal#Bromind-CU .modal-dialog,
+.modal#Bromind-Cart .modal-dialog {
+    max-width: 80%;
+}
+
+.modal a {
+    color: #EDFAFE;
+    cursor: pointer;
+}
+
+
 /* ABOUT PAGE */
 
 
@@ -153,11 +181,6 @@ div {
 
 
 /* Teams Squad */
-
-
-/* .teams {
-    margin: 0 8%;
-} */
 
 .teams .person {
     background: url('../img/Treat\ Us.svg');
@@ -276,7 +299,6 @@ div {
 /* FOOTER */
 
 .footer {
-    /* margin-top: 14.813rem; */
     width: 100%;
     height: max-content;
 }
@@ -317,34 +339,4 @@ div {
 
 .footer a:hover i {
     color: white;
-}
-
-
-/* MODAL */
-
-
-/* Detail Projects */
-
-.modal {
-    background-color: #1f1f1fbd;
-}
-
-.modal .modal-content {
-    background-color: transparent;
-    border: none;
-}
-
-.modal .modal-dialog {
-    max-width: max-content;
-}
-
-.modal#Bromind-Story .modal-dialog,
-.modal#Bromind-CU .modal-dialog,
-.modal#Bromind-Cart .modal-dialog {
-    max-width: 80%;
-}
-
-.modal a {
-    color: #EDFAFE;
-    cursor: pointer;
 }

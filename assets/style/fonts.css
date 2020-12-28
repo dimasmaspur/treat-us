@@ -1,6 +1,6 @@
 /* Import Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500&family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500;600&family=Quicksand:wght@400;500&display=swap');
 
 /* Fonts Definition */
 
@@ -27,6 +27,11 @@
 .f-poppins-500 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+}
+
+.f-poppins-600 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .f-quicksand-400 {

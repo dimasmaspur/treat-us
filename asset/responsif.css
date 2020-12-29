@@ -1,195 +1,231 @@
-/* // Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 360px) {
-    
-    /* navbar */
+
+/*Small devices (landscape phones, 576px and up)*/
+@media only screen and (min-width: 320px) {
+
+    /*navbar*/
     .navbar .image-tret-us{
-        width: 48px;
-        height: 50px;
+    	/*width: 29%;*/
+    	width: 100%;
+    	height: 50px;
     }
-    /* end navbar */
-    
-    /* hero */
+    /*end navbar*/
+
+    /*hero*/
     .hero{
         margin-top: -8.3rem;
-        height: 964px;
     }
     .content h1{
-        width: 96%;
-        margin-left: 0rem;
-        font-size: 30px;
-        text-align: center;
+    	width: 96%;
+    	text-align: center;
+    	font-size: 1.7em;
     }
     .content .button{
-        margin-left: 0rem;
-        font-size: 19px;
-        margin-top: -12px;
+    	margin-left: 0rem;
+		font-size: 1em;
+		margin-top: -12px;
     }
     .hero .image-rounded{
-        width: 153px;
-        margin-left: -5rem;
+    	width: 153px;
+    	margin-left: -5rem;
     }
     .hero .image-rounded img{
-        margin-top: 23.7rem;
-        height: 115px;
-        width: 115px !important;
-        margin-left: 4.2rem;
+    	margin-top: 23.7rem;
+		height: 115px;
+		width: 115px !important;
+		margin-left: 4.2rem;
     }
     .hero .image-rounded-1 img{
-        margin-left: -19rem;
-        margin-top: 0.9rem;
-        height: 107px;
-        width: 92% !important;
+    	margin-left: -19rem;
+    	margin-top: 0.9rem;
     }
     .hero .segitiga{
-        border-left: 332px solid transparent;
-        border-bottom: 239px solid rgba(144, 229, 243, 0.35);
-        border-top: 0px solid transparent;
-        border-right: 0px solid transparent;
-        margin-left: 1rem;
-        position: absolute;
-        top: 19rem;
+    	border-left: 332px solid transparent;
+		border-bottom: 256px solid rgba(144, 229, 243, 0.35);
+		border-top: 0px solid transparent;
+		margin-left: 1rem;
+		top: 18rem;
+		border-right: 100px;
     }
     .hero .flat-animasion{
-        width: 390px;
-        margin-top: -6rem;
-        margin-left: -4.5rem;
+    	width: 100%;
+    	margin-top: -4rem;
     }
-    /* end hero */
+    /*end hero*/
 
-    /* about us */
+    /*about us*/
     .about-us{
-        margin-top: -282px;
+    	margin-top: -100px;
     }
     .input-group h5{
-        margin-top: -2rem;
-        width: 100%;
-        font-size: 14px;
-        margin-bottom: 1rem;
-        text-align: center;
+    	margin-top: -2rem;
+		width: 377px;
+		margin-left: -3.5rem;
+		font-size: 14px;
+		margin-bottom: 1rem;
     }
-    /* end about us */
+    /*end about us*/
 
-    /* we over */
+    /*we over*/
     .we-ofer .input-group .m-auto h2{
-        font-size: 26px;
-        width: 64%;
+    	font-size: 26px;
+    	width: 64%;
     }
-    .we-ofer .margin-auto img{
-        margin-left: 0.5rem;
-    }
-    .we-ofer .information h4{
-        font-size: 16px;
-    }
-    /* end we ofer */
+    .we-ofer .margin-auto img {
+	    margin-left: 0.5rem;
+	}
+	.we-ofer .information h4 {
+	    font-size: 16px;
+	}
 
-    /* portofolio */
+	/*portofolio*/
+	.portofolio .title h2 {
+	    font-size: 26px;
+	}
+	.view-project {
+	    margin-top: 50px;
+	}
+	.view-project .project {
+	    width: 100%;
+	    height: 335px;
+	}
+	/*end portofolio*/
+
+	/*step work*/
+	.step-work .m-auto h2 {
+	    font-size: 26px;
+	}
+	.all-step-work {
+	    margin-left: 0rem;
+	}
+	.analayze p {
+	    width: 100%;
+	}
+	/*end step work*/
+
+	/*technology*/
+	.technologies .title-technologies h2 {
+	    font-size: 26px;
+	}
+	/*end technologi*/
+
+	/*testimoni*/
+	.testimoni h2 {
+	    font-size: 24px;
+	}
+	.testimoni #carouselExampleCaptions {
+	    margin-top: 36px;
+	}
+	.carousel-caption {
+	    position: revert;
+	}
+	.testimoni .carousel-item .carousel-caption p, 
+	.testimoni .carousel-item .carousel-caption h6 {
+	    color: rgba(4,4,4, 0.4);
+	}
+	#carouselExampleCaptions .carousel-indicators li {
+	    background-color: black;
+	}
+	/*end testimoni*/
+
+    /*portofolio*/
     .portofolio{
-        margin-top: 92px;
-    }
-    .portofolio .title h2{
-        font-size: 26px;
-    }
-    .view-project{
-        margin-top: 50px;
-    }
-    .view-project .project{
-        width: 100%;
-        height: 335px;
-    }
-    /* end portofolio */
-
-    /* step work */
-    .step-work .m-auto h2{
-        font-size: 26px;
-    }
-    .all-step-work{
-        margin-left: 0rem;
-    }
-    .analayze p{
-        width: 100%;
-    }
-    /* end step work */
-
-    /* technology */
-    .technologies{
-        margin-top: 132px;
-    }
-    .technologies .title-technologies h2{
-        font-size: 26px;
-    }
-    /* end technologies */
-
-    /* testimoni */
-    .testimoni{
-        margin-top: 92px;
-    }
-    .testimoni h2{
-        font-size: 24px;
-    }
-    .testimoni #carouselExampleCaptions{
-        margin-top: 36px;
-    }
-    .carousel-caption{
-        position: inherit;
-        margin-right: 0rem;
-        left: 0rem;
-    }
-    .testimoni .carousel-item .carousel-caption p,
-    .testimoni .carousel-item .carousel-caption h6{
-        color: rgba(4,4,4,0.4);
-    }
-    #carouselExampleCaptions .carousel-indicators li{
-        background-color: black;
-    }
-    /* end testimoni */
-    
+	    margin-top: 92px;
+	}
+	/*end portofolio*/
 }
 
-@media only screen and (max-width: 550px){
-    .margin-auto{
-        margin: auto !important;
-    }
+@media only screen and (max-width: 540px){
+	
+	/*hero*/
+	/*.content h1{
+		font-size: 2em;
+	}*/
 
-    /* we ofer */
-    .we-ofer .information{
-        text-align: center;
-    }
-    /* end we ofer */
-
-    /* step work */
-    .analayze{
-        margin-left: 0rem;
-    }
-    /* end step work */
+	/*about us*/
+	.input-group h5, .we-ofer .information{
+		text-align: center;
+	}
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+/* Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 640px){
+	
+	/*navbar*/
+	.navbar .image-tret-us{
+		width: 37%;
+		height: auto;
+	}
+	/*end navbar*/
 
-/* X-Large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
-    /* navbar */
+	/*hero*/
+	/*.hero .button{
+		margin-left: 3rem;
+	}*/
+	.hero .flat-animasion{
+		margin-top: -6rem;
+	}
+	.content h1{
+		width: 100%;
+		font-size: 1.9em;
+	}
+	.content .button{
+		margin-left: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 772px) {
+
+	/*.content h1{
+		font-size: 36px;
+	}*/
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+@media only screen and (max-width: 992px) {
+	.margin-auto{
+		margin:auto !important;
+	}
+}
+@media only screen and (min-width: 992px) {
+	
+	/*navbar*/
+	.navbar .image-tret-us{
+		width: 50%;
+	}
+
+	/*hero*/
+	.content h1{
+		font-size: 2.6em;
+	}
+	.hero .flat-animasion{
+		width: 37rem;
+		margin-left: -9rem;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) { 
+	
+	/* navbar */
     .navbar .image-tret-us{
         width: 56%;
         height: auto;
     }
     /* end navbar */
 
-    /* hero */
-    .hero{
-        margin-top: -7rem;
-        height: 800px;
-    }
-    .content h1{
-        width: 100%;
-        font-size: 55px;
+	/*hero*/
+	.hero{
+		margin-top: -7rem;
+		height: 800px;
+	}
+	.content h1{
+    	font-size: 55px;
+    	width: 100%;
     }
     .hero .image-rounded{
-        width: 253px;
+    	width: 253px;
     }
     .hero .image-rounded img{
         margin-top: 11.7rem;
@@ -205,7 +241,7 @@
     }
     .hero .flat-animasion{
         width: 669px;
-        margin-top: -2.7rem;
+        margin-top: -2rem;
         margin-left: -4.9rem;
     }
     .hero .button{
@@ -213,27 +249,24 @@
     }
     .hero .segitiga{
         border-bottom: 748px solid rgba(144, 229, 243, 0.35);
-        top: 0rem;
+        top: 0.1rem;
         margin-left: 16rem;
         border-left: 58.3rem solid transparent;
     }
-    /* end hero */
+    /*end hero*/
 
-    /* about us */
+    /*about us*/
     .about-us{
-        margin-top: 85px;
+    	margin-top: 85px;
     }
     .input-group h5{
-        font-size: 16px;
-        margin-top: 0rem;
-        text-align: inherit;
-    /* end about us */
-
-    /* step work */   
-    .analayze{
-        margin-left: 3.3rem;
+    	font-size: 16px;
+    	margin-top: 0rem;
+    	text-align: inherit;
+    	width: 638px;
+    	margin-left: 0rem;
     }
-    /* end step work */
+    /*end about us*/
 
     /* technologies */
     .technologies{
@@ -243,14 +276,14 @@
 
     /* service */
     .we-ofer .margin-auto img{
-        margin-left: 0rem;
+    	margin-left: 0rem;
     }
     .information{
-        margin-left: 1rem;
+    	margin-left: 1rem;
     }
     .we-ofer .input-group .m-auto h2{
-        width: 28%;
-        font-size: 36px;
+    	width: 28%;
+    	font-size: 36px;
     }
     /* end service */
 
@@ -259,38 +292,33 @@
         font-size: 36px;
     }
     .view-project .project{
-        width: 432.35px !important;
-        height: 377px !important;
+        width: 432.35px;
+        height: 377px;
     }
     /* end portofolio */
 
-    /* step work */
+	/* step work */
     .step-work .m-auto h2{
-        font-size: 36px !important;
+        font-size: 36px;
     }
     .all-step-work{
-        margin-left: 9rem !important;
-    }
-    .analayze{
-        margin-left: 3rem;
+        margin-left: 10rem;
     }
     .analayze p{
-        width: 479px !important;
+        width: 100%;
     }
     /* end step work */
 
-    /* tecnologi */
+	/* tecnologi */
     .technologies .title-technologies h2{
-        font-size: 31px !important;
+        font-size: 32px;
     }
     /* end technologi */
 
-    /* testimoni */
-    .testimoni h2{
-        font-size: 36px !important;
-    }
-    /* end testimoni */
+	.testimoni h2{
+		font-size: 36px;
+	}
 }
 
-// XX-Large devices (larger desktops, 1400px and up)
+/*XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) { ... }

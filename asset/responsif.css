@@ -34,9 +34,8 @@
 		width: 115px !important;
 		margin-left: 4.2rem;
     }
-    .hero .image-rounded-1 img{
-    	margin-left: -19rem;
-    	margin-top: 0.9rem;
+    .hero .ms-auto img{
+    	margin-top: 23.5rem;
     }
     .hero .segitiga{
     	border-left: 332px solid transparent;
@@ -134,12 +133,11 @@
 	/*end portofolio*/
 }
 
+@media only screen (min-width: 468px) and (max-width: 575px){
+
+}
+
 @media only screen and (max-width: 540px){
-	
-	/*hero*/
-	/*.content h1{
-		font-size: 2em;
-	}*/
 
 	/*about us*/
 	.input-group h5, .we-ofer .information{
@@ -147,6 +145,27 @@
 	}
 }
 
+@media only screen (min-width: 540px) and (max-width: 575px){
+
+	/*hero*/
+	.content{
+		width: 98%;
+	}
+	.content h1{
+		width: 100%;
+	}
+	.hero .flat-animasion{
+		margin-top: -13rem;
+	}
+	/*end hero*/
+}
+
+@media only screen and (min-width: 576px){
+	.hero .image-rounded-1{
+		margin-left: -16%;
+		margin-top: -22%;
+	}
+}
 
 /* Medium devices (tablets, 768px and up)*/
 @media only screen and (min-width: 640px){
@@ -174,11 +193,34 @@
 	}
 }
 
-@media only screen and (min-width: 772px) {
+@media only screen and (min-width: 740px) {
 
+	/*hero*/
+	.hero .ms-auto img{
+		margin-top: 20.5rem;
+	}
+	.hero .flat-animasion{
+		margin-top: -8rem;
+	}
+	/*end hero*/
 	/*.content h1{
 		font-size: 36px;
 	}*/
+}
+
+@media only screen and (min-width: 768px){
+	
+	.hero .image-rounded-1{
+		margin-left: 1%;
+		margin-top: -20%;
+	}
+	.hero .flat-animasion{
+		margin-top: -1rem;
+	}
+	.hero .ms-auto img{
+		margin-top: 20.5rem;
+		margin-left: -32%;
+	}
 }
 
 

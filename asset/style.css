@@ -30,7 +30,8 @@ body, h1, h2, h3, h4, h5, h6{
     left: 0px;
     top: -27.5px
     border-radius: 0px;
-    background: linear-gradient(180deg, #EDFAFE 53.04%, rgba(237, 250, 254, 0) 100%);
+    /*background: linear-gradient(180deg, #EDFAFE 53.04%, rgba(237, 250, 254, 0) 100%);*/
+    background: green;
 }
 .content{
     position: absolute;
@@ -71,9 +72,9 @@ body, h1, h2, h3, h4, h5, h6{
     margin-top: 11.7rem;
     margin-left: 3.2rem;
 }
-.hero .image-rounded-1 img{
-    margin-left: -38rem;
-    margin-top: 3.3rem;
+.hero .image-rounded-1{
+    margin-left: -30%;
+    margin-top: -26%;
 }
 /* .vector{
     position: absolute;

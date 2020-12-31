@@ -94,9 +94,10 @@ body, h1, h2, h3, h4, h5, h6{
     margin-top: 85px;
 }
 .about-us-content{
-    height: 188px;
+    height: auto;
     border-radius: 10px;
-    background: linear-gradient(90deg, #F7FDFF 0%, rgba(216, 246, 255, 0.0203218) 53.03%, #F6FDFF 100.48%);
+    /*background: linear-gradient(90deg, #F7FDFF 0%, rgba(216, 246, 255, 0.0203218) 53.03%, #F6FDFF 100.48%);*/
+    background-color: green;
 }
 .about-us-content .col-xl-8{
     padding: 48px;
@@ -110,9 +111,10 @@ body, h1, h2, h3, h4, h5, h6{
 } */
 .input-group h3{
     font-family: 'Inter', sans-serif;
-    font-size: 32x;
+    font-size: 32px;
     line-height: 44px;
     letter-spacing: 0.04em;
+    margin-top: 1rem;
 }
 .input-group h5{
     font-size: 16px;

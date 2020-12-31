@@ -100,11 +100,12 @@
 	.step-work .m-auto h2 {
 	    font-size: 26px;
 	}
-	.all-step-work {
-	    margin-left: 0rem;
-	}
 	.analayze p {
 	    width: 100%;
+	    height: auto;
+	}
+	.mobile img{
+		margin-top: 88px;
 	}
 	/*end step work*/
 
@@ -233,6 +234,11 @@
 		margin-left: -1rem !important;
 		width: 13rem;
 	}
+	/*end we ofer*/
+}
+
+@media only screen and (max-width: 766px){
+
 }
 
 
@@ -267,8 +273,9 @@
 		font-size: 2.6em;
 	}
 	.hero .flat-animasion{
-		width: 37rem;
-		margin-left: -9rem;
+		/*width: 37rem;
+		margin-left: -9rem;*/
+		margin-top: 5rem;
 	}
 	/*end hero*/
 

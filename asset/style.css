@@ -96,8 +96,7 @@ body, h1, h2, h3, h4, h5, h6{
 .about-us-content{
     height: auto;
     border-radius: 10px;
-    /*background: linear-gradient(90deg, #F7FDFF 0%, rgba(216, 246, 255, 0.0203218) 53.03%, #F6FDFF 100.48%);*/
-    background-color: green;
+    background: linear-gradient(90deg, #F7FDFF 0%, rgba(216, 246, 255, 0.0203218) 53.03%, #F6FDFF 100.48%);
 }
 .about-us-content .col-xl-8{
     padding: 48px;
@@ -190,10 +189,6 @@ body, h1, h2, h3, h4, h5, h6{
 }
 .all-step-work{
     margin-top: 86px;
-    margin-left: 9rem;
-}
-.analayze{
-    margin-left: 3.3rem;
 }
 .analayze p{
     width: 479px;

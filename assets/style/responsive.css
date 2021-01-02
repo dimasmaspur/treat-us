@@ -17,15 +17,8 @@
         .teams .col-6 {
             padding: 0;
         }
-        .teams .row .info {
-            visibility: hidden;
-        }
         .teams .row img {
             height: 10rem;
-        }
-        .teams .row .col-6:hover .info {
-            visibility: initial;
-            transition: 3s;
         }
         .teams .row .malik,
         .teams .row .cipto,
@@ -164,15 +157,8 @@
         .teams .col-6 {
             padding: 0;
         }
-        .teams .row .info {
-            visibility: hidden;
-        }
         .teams .row img {
             height: 10rem;
-        }
-        .teams .row .col-6:hover .info {
-            visibility: initial;
-            transition: 3s;
         }
         .teams .row .malik,
         .teams .row .cipto,
@@ -416,6 +402,40 @@
         }
         .teams .person {
             display: none;
+        }
+        /* Teams Hover Effect */
+        .teams .row .info {
+            margin-top: 4rem;
+            margin-bottom: -2rem;
+            visibility: hidden;
+        }
+        /* .teams .row .info .px-16,
+        .teams .row .info .px-14 {
+            font-size: 0.313rem;
+        } */
+        .teams .row img {
+            margin-top: -2rem;
+            /* margin-top: -2rem; */
+        }
+        .teams .row .col-6:hover .info {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        /* .teams .row .col-6:hover .info .px-16 {
+            font-size: 1rem;
+        }
+        
+        .teams .row .col-6:hover .info .px-14 {
+            font-size: 0.875rem;
+        } */
+        .teams .row .col-6:hover img {
+            margin-top: 0;
+        }
+        .teams .row .col-6:hover .info,
+        .teams .row img:hover {
+            visibility: initial;
+            cursor: pointer;
+            transition: 0.5s;
         }
     }
     /* LARGE */

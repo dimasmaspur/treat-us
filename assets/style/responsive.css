@@ -315,10 +315,13 @@
             font-size: 1rem;
         }
         /* Project Modal */
+        .modal-dialog {
+            max-width: max-content;
+        }
         .modal#Bromind-Story .modal-dialog,
         .modal#Bromind-CU .modal-dialog,
         .modal#Bromind-Cart .modal-dialog {
-            max-width: 80%;
+            max-width: max-content;
         }
     }
     /* MEDIUM */

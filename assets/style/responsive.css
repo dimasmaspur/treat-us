@@ -372,11 +372,39 @@
             font-size: 1.5rem;
             color: #4AC6F3;
         }
-        .navbar-collapse.show .person {
+        .navbar-collapse.show {
             text-align: center;
         }
+        .navbar-collapse.show ul {
+            max-width: max-content;
+            margin: auto;
+        }
         .navbar-collapse.show li {
-            margin: 0;
+            margin: 20% auto;
+        }
+        /* Hover Navbar Effect */
+        .navbar-nav .nav-item::after {
+            content: '';
+            display: block;
+            /* width: 0; */
+            /* margin: 0 auto; */
+            transform: scaleX(0);
+            height: 2px;
+            background: black;
+            transition: transform .3s;
+        }
+        .navbar-nav .nav-item:hover:after {
+            /* width: 50%; */
+            /* margin: 0 auto; */
+            transform: scaleX(0.5);
+            transition: transform .3s;
+        }
+        .navbar-nav .active::after {
+            content: '';
+            display: block;
+            height: 2px;
+            background: black;
+            transform: scaleX(0.5);
         }
         /* ABOUT PAGE */
         .about p.lg {

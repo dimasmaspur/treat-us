@@ -4,8 +4,7 @@
 
     /*navbar*/
     .navbar .image-tret-us{
-    	/*width: 29%;*/
-    	width: 100%;
+    	width: 29%;	
     	height: 50px;
     }
     /*end navbar*/
@@ -16,10 +15,14 @@
         height: auto;
     }
     .content h1{
-    	width: 96%;
+    	width: 90%;
     	text-align: center;
-    	font-size: 1.7em;
-    }
+		font-size: 1.7em;
+		margin: auto;
+	}
+	.content{
+		margin-top: 20rem;
+	}
     .content .button{
     	margin-left: 0rem;
 		font-size: 1em;
@@ -36,11 +39,11 @@
 		margin-left: 4.2rem;
     }
     .hero .ms-auto img{
-    	margin-top: 23.5rem;
+    	margin-top: 29.5rem;
     }
     .hero .segitiga{
     	border-left: 332px solid transparent;
-		border-bottom: 256px solid rgba(144, 229, 243, 0.35);
+		border-bottom: 273px solid rgba(144, 229, 243, 0.35);
 		border-top: 0px solid transparent;
 		margin-left: 1rem;
 		top: 18rem;
@@ -48,7 +51,8 @@
     }
     .hero .flat-animasion{
     	width: 100%;
-    	margin-top: -4rem;
+		margin-top: -5rem;
+		position: relative;
     }
     /*end hero*/
 
@@ -79,7 +83,7 @@
 	}
 	.we-ofer .input-group h2{
 		margin-left: -3rem !important;
-		width: 12rem;
+		width: 11rem;
 	}
 	/*end we over*/
 
@@ -170,6 +174,9 @@
 		margin-left: -16%;
 		margin-top: -22%;
 	}
+	.content h1{
+		width: 100%;
+	}
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -187,7 +194,7 @@
 		margin-left: 3rem;
 	}*/
 	.hero .flat-animasion{
-		margin-top: -6rem;
+		margin-top: -4rem;
 	}
 	.content h1{
 		width: 100%;
@@ -202,10 +209,10 @@
 
 	/*hero*/
 	.hero .ms-auto img{
-		margin-top: 20.5rem;
+		margin-top: 23.5rem;
 	}
 	.hero .flat-animasion{
-		margin-top: -8rem;
+		margin-top: -4rem;
 	}
 	/*end hero*/
 	/*.content h1{
@@ -217,22 +224,22 @@
 	
 	/*hero*/
 	.hero .image-rounded-1{
-		margin-left: 1%;
-		margin-top: -20%;
+		margin-left: 4%;
+		margin-top: -21%;
 	}
 	.hero .flat-animasion{
 		margin-top: -1rem;
 	}
 	.hero .ms-auto img{
-		margin-top: 20.5rem;
-		margin-left: -32%;
+		margin-top: 24.5rem;
+		margin-left: -47%;
 	}
 	/*end hero*/
 
 	/*we ofer*/
 	.we-ofer .input-group h2{
 		margin-left: -1rem !important;
-		width: 13rem;
+		width: 12rem;
 	}
 	/*end we ofer*/
 }
@@ -311,41 +318,39 @@
 
 	/*hero*/
 	.hero{
-		margin-top: -7rem;
-		height: 800px;
+		margin-top: -8rem;
+		height: 878px;
 	}
 	.content h1{
-    	font-size: 55px;
+    	font-size: 61px;
     	width: 100%;
     }
     .hero .image-rounded{
     	width: 253px;
-    }
-    .hero .image-rounded img{
-        margin-top: 11.7rem;
-        margin-left: 8.2rem;
-        height: auto;
-        width: 100% !important;
-    }
-    .hero .image-rounded-1 img{
-        margin-left: -38rem;
-        margin-top: 3.3rem;
-        height: auto;
+	}
+	.hero .ms-auto img{
+		margin-top: 18rem;
+		margin-left: -45%;
+		width: 16rem !important;
+	}
+    .hero .image-rounded-1{
+        margin-left: 5rem;
+        margin-top: -16rem;
         width: 100% !important;
     }
     .hero .flat-animasion{
-        width: 669px;
-        margin-top: -2rem;
-        margin-left: -4.9rem;
+        width: 616px;
+        margin-top: -2.5rem;
+        margin-left: -2rem;
     }
     .hero .button{
         margin-left: 2rem;
     }
     .hero .segitiga{
-        border-bottom: 748px solid rgba(144, 229, 243, 0.35);
+        border-bottom: 697px solid rgba(144, 229, 243, 0.35);
         top: 0.1rem;
-        margin-left: 16rem;
-        border-left: 58.3rem solid transparent;
+        margin-left: 18rem;
+        border-left: 56.4rem solid transparent;
     }
     /*end hero*/
 

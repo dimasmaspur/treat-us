@@ -30,8 +30,7 @@ body, h1, h2, h3, h4, h5, h6{
     left: 0px;
     top: -27.5px
     border-radius: 0px;
-    /*background: linear-gradient(180deg, #EDFAFE 53.04%, rgba(237, 250, 254, 0) 100%);*/
-    background: green;
+    background: linear-gradient(180deg, #EDFAFE 53.04%, rgba(237, 250, 254, 0) 100%);
 }
 .content{
     position: absolute;
@@ -162,6 +161,9 @@ body, h1, h2, h3, h4, h5, h6{
 .view-project{
     margin-top: 69px;
 }
+.view-project .view-project-title{
+    margin-top: 114px;
+}
 .view-project .view-project-title h6{    
     font-size: 14px;
     line-height: 21px;
@@ -238,3 +240,24 @@ body, h1, h2, h3, h4, h5, h6{
     margin-top: 86px;
 }
 /* end testimonial */
+
+/* footer */
+.wave{
+    margin-top: 177px;
+}
+.footer-content{
+    position: absolute;
+    width: 100%;
+    margin-top: 18%;
+}
+.footer-content h6{
+    margin-top: 86px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.wave .footer-content img{
+    margin-top: 230%;
+}
+.footer-content .follow-us img{
+    margin-top: 15px;
+}

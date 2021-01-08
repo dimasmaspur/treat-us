@@ -13,7 +13,11 @@
     .hero{
         margin-top: -8.3rem;
         height: auto;
-    }
+	}
+	.hero .triangle{
+		left: 0;
+		width: 100%;	
+	}
     .content h1{
     	width: 90%;
     	text-align: center;
@@ -31,7 +35,7 @@
     .hero .image-rounded{
     	width: 153px;
     	margin-left: -5rem;
-    }
+	}
     .hero .image-rounded img{
     	margin-top: 23.7rem;
 		height: 115px;
@@ -200,12 +204,39 @@
 	/*end hero*/
 }
 
+@media only screen and (max-width: 574px){
+	
+	/* hero */
+	.hero .triangle{
+		position: absolute;
+	}
+	.hero .triangle .image{
+		float: right;
+		margin-top: 28rem;
+		width: 90%;
+	}
+}
+
 @media only screen and (min-width: 576px){
 	
 	/* hero */
 	.hero .image-rounded-1{
 		margin-left: -16%;
 		margin-top: -22%;
+	}
+	.hero .triangle .image{
+		width: 90%;
+	}
+	.triangle .image img{
+		margin-top: 24rem;
+		margin-left: 5.1rem;
+	}
+	.hero .ms-auto img{
+		margin-top: -30rem;
+		margin-left: -4rem;
+	}
+	.hero .flat-animasion{
+		margin-top: -16rem;
 	}
 	.content h1{
 		width: 100%;
@@ -234,7 +265,13 @@
 		margin-left: 3rem;
 	}*/
 	.hero .flat-animasion{
-		margin-top: -4rem;
+		margin-top: -16rem;
+	}
+	.hero .triangle .image{
+		width: 96%;
+	}
+	.triangle .image img{
+		margin-top: 23rem;
 	}
 	.content h1{
 		width: 100%;
@@ -258,10 +295,17 @@
 
 	/*hero*/
 	.hero .ms-auto img{
-		margin-top: 23.5rem;
+		margin-top: -31.5rem;
+	}
+	.hero .triangle .image{
+		width: 100%;
+	}
+	.triangle .image img{
+		margin-left: 7rem;
+		margin-top: 23rem;
 	}
 	.hero .flat-animasion{
-		margin-top: -4rem;
+		margin-top: -16rem;
 	}
 	/*end hero*/
 	/*.content h1{
@@ -277,16 +321,26 @@
 @media only screen and (min-width: 768px){
 	
 	/*hero*/
+	.hero .content{
+		margin-left: 3rem;
+	}
+	.hero .triangle .image{
+		width: 83%;
+	}
+	.triangle .image img{
+		margin-left: 9.7rem;
+		margin-top: 23rem;
+	}
 	.hero .image-rounded-1{
-		margin-left: 4%;
+		margin-left: -4%;
 		margin-top: -21%;
 	}
 	.hero .flat-animasion{
-		margin-top: -1rem;
+		margin-top: -17rem;
 	}
 	.hero .ms-auto img{
-		margin-top: 24.5rem;
-		margin-left: -47%;
+		margin-top: -37.5rem;
+		margin-left: -5%;
 	}
 	/*end hero*/
 
@@ -297,11 +351,6 @@
 	}
 	/*end we ofer*/
 }
-
-@media only screen and (max-width: 766px){
-
-}
-
 
 /* Large devices (desktops, 992px and up)*/
 @media only screen and (max-width: 992px) {
@@ -333,10 +382,23 @@
 	.content h1{
 		font-size: 2.6em;
 	}
+	.hero .triangle .image{
+		width: 78%;
+	}
+	.hero .ms-auto img{
+		margin-top: -49.5rem;
+		margin-left: 3%;
+	}
+	.triangle .image img{
+		margin-top: 11rem;
+		margin-left: 14.6rem;
+	}
 	.hero .flat-animasion{
-		/*width: 37rem;
-		margin-left: -9rem;*/
-		margin-top: 5rem;
+		margin-top: -20rem;
+	}
+	.hero .image-rounded-1{
+		margin-left: 12%;
+		margin-top: -29%;
 	}
 	/*end hero*/
 
@@ -495,23 +557,30 @@
 	.content h1{
     	font-size: 61px;
     	width: 100%;
-    }
+	}
+	.hero .triangle .image{
+		width: 80%;
+	}
+	.triangle .image img{
+		margin-left: 18.6rem;
+		margin-top: 10rem;
+	}
     .hero .image-rounded{
     	width: 253px;
 	}
 	.hero .ms-auto img{
-		margin-top: 18rem;
-		margin-left: -45%;
+		margin-top: -60rem;
+		margin-left: -28%;
 		width: 16rem !important;
 	}
     .hero .image-rounded-1{
-        margin-left: 5rem;
-        margin-top: -16rem;
+        margin-left: 5.5rem;
+        margin-top: -18rem;
         width: 100% !important;
     }
     .hero .flat-animasion{
-        width: 616px;
-        margin-top: -2.5rem;
+        width: 675px;
+        margin-top: -24.5rem;
         margin-left: -2rem;
     }
     .hero .button{

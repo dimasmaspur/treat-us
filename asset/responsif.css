@@ -354,6 +354,7 @@
 
 /* Large devices (desktops, 992px and up)*/
 @media only screen and (max-width: 992px) {
+	
 	/*about us*/
 	.input-group h5, .we-ofer .information{
 		text-align: center;
@@ -377,6 +378,10 @@
 	.navbar .image-tret-us{
 		width: 50%;
 	}
+	.navbar-nav .nav-item a{
+		font-size: 16px;
+	}
+	/* end navbar	 */
 
 	/*hero*/
 	.content h1{
@@ -509,9 +514,12 @@
 		border: 0;
 		cursor: pointer;
 		font-size: 16px;
-		padding: 0 12px;
 		text-transform: capitalize;
 		background: transparent;
+		color: rgba(4, 4, 4, 0.63);
+		width: 14%;
+	}
+	.gallery-controls button:hover{
 		color: #4AC6F3;
 	}
 	.gallery-controls button:focus{
@@ -520,6 +528,14 @@
 	.gallery-controls-previous{
 		position: relative;
 		margin-right: auto;
+		text-align: right;
+		background-image: url('./image/Group 798.svg') !important;
+		background-repeat: no-repeat !important;
+		background-position: center !important;
+		background-position-x: 8px !important;
+	}
+	.gallery-controls-previous:hover{
+		background-image: url('./image/Group 798 biru.svg') !important;
 	}
 	.gallery-controls-previous:hover::before{
 		left: -18px;
@@ -527,6 +543,15 @@
 	.gallery-controls-next{
 		position: relative;
 		margin-left: auto;
+		width: 10% !important;
+		text-align: left;
+		background-image: url('./image/Group 797 abu.svg') !important;
+		background-repeat: no-repeat !important;
+		background-position: center !important;
+		background-position-x: 55px !important;
+	}
+	.gallery-controls-next:hover{
+		background-image: url('./image/Group 797.svg') !important;
 	}
 	.gallery-controls-next:hover::before{
 		right: -18px;
@@ -541,7 +566,10 @@
     .navbar .image-tret-us{
         width: 56%;
         height: auto;
-    }
+	}
+	.navbar-nav .nav-item a{
+		font-size: 24px;
+	}
     /* end navbar */
 
 	/*hero*/
@@ -649,9 +677,23 @@
     }
     /* end technologi */
 
+	/* testimoni */
 	.testimoni h2{
 		font-size: 36px;
 	}
+	.gallery-item.gallery-item-last img{
+		left: 925px;
+	}
+	.gallery-item.gallery-item-next img{
+		left: 746px;
+	}
+	.gallery-item.gallery-item-first img{
+		left: 82px;
+	}
+	.gallery-item.gallery-item-previous img{
+		left: 226px;
+	}
+	/* end testimoni */
 
 	/* footer */
 	.footer-content h2{
@@ -659,5 +701,35 @@
 	}
 }
 
+@media only screen and (min-width: 1350px){
+	.triangle .image img{
+		margin-left: 21.6rem;
+	}
+}
+
 /*XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { ... }
+@media only screen and (min-width: 1400px) { 
+	
+	/* hero */
+	.content h1{
+		font-size: 69px;
+	}
+	.hero .ms-auto img{
+		margin-top: -75rem;
+		margin-left: -36%;
+	}
+	.hero .flat-animasion{
+		width: 805px;
+		margin-top: -28.5rem;
+		margin-left: -5rem;
+	}
+	.hero .image-rounded-1{
+		margin-top: -21rem;
+	}
+	/* end hero */
+
+	/* about us */
+	.about-us{
+		margin-top: 240px;
+	}
+}

@@ -625,7 +625,7 @@
     	font-size: 16px;
     	margin-top: 1rem;
     	text-align: inherit;
-    	width: 638px;
+    	width: 594px;
     	margin-left: 0rem;
     }
     /*end about us*/
@@ -643,7 +643,10 @@
     .we-ofer .input-group h2{
     	width: 13rem;
     	margin-left: 0rem !important;
-    }
+	}
+	.information p{
+		width: 82%;
+	}
     /* end service */
 
     /* portofolio */
@@ -667,7 +670,7 @@
         margin-left: 8rem;
     }
     .analayze p{
-        width: 100%;
+        width: 110%;
     }
     /* end step work */
 

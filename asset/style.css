@@ -10,15 +10,22 @@ body, h1, h2, h3, h4, h5, h6{
 .navbar .image-tret-us{
     width: 56%;
 }
-.navbar-nav .nav-item{
-    margin-left: 2rem;
-}
 .navbar-nav .nav-item a{
     font-size: 21px;
     letter-spacing: 0.04em;
 }
 .navbar-nav .nav-item .active:hover{
-    border-bottom: 3px solid;
+    border-bottom: 2px solid;
+}
+.navbar-light .navbar-toggler{
+    border-color: transparent !important;
+    color: transparent !important;
+}
+.navbar-toggler:focus{
+    box-shadow: transparent !important;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url('./image/menu_24px_outlined.svg');
 }
 /* end navbar */
 

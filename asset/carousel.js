@@ -108,3 +108,12 @@ const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryCont
 exampleCarousel.setControls();
 exampleCarousel.setInitialState();
 exampleCarousel.useControls();
+
+// navbar scroll
+$(window).on('scroll', function(){
+  if($(window).scrollTop()){
+    $('.change').addClass('bg-white');
+  } else {
+    $('.change').removeClass('bg-white');
+  }
+});

@@ -1,0 +1,291 @@
+html, body{
+    scroll: smooth;
+}
+
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar .image-tret-us{
+    width: 56%;
+}
+.navbar-nav .nav-item a{
+    font-size: 21px;
+    letter-spacing: 0.04em;
+}
+.navbar-nav .nav-item .active:hover{
+    border-bottom: 2px solid;
+}
+.navbar-light .navbar-toggler{
+    border-color: transparent !important;
+    color: transparent !important;
+}
+.navbar-toggler:focus{
+    box-shadow: transparent !important;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url('./image/menu_24px_outlined.svg');
+}
+/* end navbar */
+
+/* hero */
+.we {
+    color:#4AC6F3;
+}
+.hero{
+    margin-top: -7rem;
+    height: 800px;
+    width: 100%;
+    left: 0px;
+    top: -27.5px;
+    border-radius: 0px;
+    background: linear-gradient(180deg, #EDFAFE 53.04%, rgba(237, 250, 254, 0) 100%);
+}
+.content{
+    position: absolute;
+    margin-top: 14rem;
+}
+.content h1{
+    font-family: 'Quicksand', sans-serif;
+}
+.content .button{
+    background: #6577B9;
+    padding-right: 28px;
+    padding-left: 27px;
+    padding-top: 16px;
+    font-size: 20px;
+    line-height: 7px;
+    letter-spacing: 0.02em;
+    color:white;
+    height: 43px;
+}
+.content span{
+    color: #4AC6F3;
+    margin-left: 1rem;
+}
+.kontenOffer{
+    width: 110%;
+}
+.project.work{
+    height: 335px;
+}
+/* .hero .segitiga{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-bottom: 31px solid rgba(144, 229, 243, 0.35);
+    border-right: 884px solid rgba(144, 229, 243, 0.35);
+    border-top: 716px solid transparent;
+    margin-left: 16rem;
+    margin-top: 1rem;
+    position: absolute;
+} */
+.hero .segitiga{
+    margin-top: 27.6rem;
+    position: absolute;
+}
+.hero .image-rounded{
+    width: 253px;
+}
+.hero .image-rounded img{
+    margin-top: 11.7rem;
+    margin-left: 3.2rem;
+}
+.hero .image-rounded-1{
+    margin-left: -30%;
+    margin-top: -26%;
+}
+/* .vector{
+    position: absolute;
+    width: 1143.5px;
+    height: 923px;
+    left: 410px;
+    top: -28px;
+
+    background: #37CAFF;
+    opacity: 0.2;
+} */
+
+/* end hero */
+
+/* about-us */
+.about-us{
+    margin-top: 85px;
+}
+.about-us-content{
+    height: auto;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #F7FDFF 0%, rgba(216, 246, 255, 0.0203218) 53.03%, #F6FDFF 100.48%);
+}
+.about-us-content .col-xl-8{
+    padding: 48px;
+}
+/* .form-group{
+    position: absolute;
+    width: 1046px;
+    height: 100px;
+    left: 252px;
+    top: 1087px;
+} */
+.input-group h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    margin-top: 1rem;
+}
+.input-group h5{
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.07em;
+    opacity: 0.8;
+}
+.input-group h5 a{
+    color: #000000;
+}
+
+/* end about us */
+
+/* we ofer */
+
+.we-ofer{
+    margin-top: 153px;
+}
+.we-ofer .input-group .m-auto h2{
+    width: 28%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+}
+.information p{
+    font-weight: 500;
+    font-size: 12.4px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: rgba(4,4,4, 0.63);
+}
+
+/* end we ofer */
+
+/* portofolio */
+
+.portofolio .title h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+}
+.view-project{
+    margin-top: 69px;
+}
+.view-project .view-project-title{
+    margin-top: 114px;
+}
+.view-project .view-project-title h6{    
+    font-size: 14px;
+    line-height: 21px;
+}
+.view-project .view-project-title a{
+    color: black;
+}
+.view-project .project{
+    width: 432.35px;
+    margin-top: 16px;
+    height: 377px;
+    background: #DBF8FF;
+    border-radius: 2px;
+}
+
+/* end portofolio */
+
+/* step wrok */
+
+.step-work{
+    margin-top: 162px;
+}
+.step-work h2{
+    font-family: 'Inter', sans-serif;
+}
+.all-step-work{
+    margin-top: 86px;
+}
+.analayze p{
+    width: 479px;
+    height: 71px;
+    left: 322px;
+    top: 3774px;
+    color: rgba(4,4,4, 0.63);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+}
+/* and step work */
+
+/* technologies */
+
+.technologies{
+    margin-top: 191px;
+}
+.technologies .title-technologies h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 31px;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    color: #4AC6F3;
+}
+.technologies .all-technologies{
+    margin-top: 64px;
+}
+
+/* end technologies */
+
+/* testimonial */
+
+.testimoni{
+    margin-top: 204px;
+}
+.testimoni h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+}
+.testimoni #carouselExampleCaptions{
+    margin-top: 86px;
+}
+.gallery-content .content-item{
+    position: absolute;
+    display: none;
+}
+.gallery-active{
+    display: block !important;
+}
+/* end testimonial */
+
+/* footer */
+.wave{
+    margin-top: 177px;
+}
+.footer-content{
+    position: absolute;
+    width: 100%;
+    margin-top: 18%;
+}
+.footer-content h6{
+    margin-top: 86px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.wave .footer-content img{
+    margin-top: 230%;
+}
+.footer-content .follow-us img{
+    margin-top: 15px;
+}

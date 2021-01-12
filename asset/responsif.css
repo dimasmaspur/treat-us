@@ -5,7 +5,7 @@
 	/* navbar */
 	.navbar .image-tret-us{
     	width: 22%;	
-    }
+	}
 	/* end navbar */
 
     /*hero*/
@@ -366,6 +366,10 @@
 		position: absolute;
 		left: 14px;
 		top: 0;
+	}
+	.navbar-collapse ul{
+		height: 350px;
+		overflow: auto;
 	}
 	.navbar-collapse{
 		background: white;
